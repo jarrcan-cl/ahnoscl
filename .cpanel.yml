@@ -1,6 +1,11 @@
 ---
 deployment:
   tasks:
+#común
     - export DEPLOYPATH=/home/ahnoscl/public_html/
+#archivos
     - /bin/cp index.html $DEPLOYPATH
+#carpetas
     - /bin/cp -R image $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
