@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ahnoscl/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R image $DEPLOYPATH
